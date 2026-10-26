@@ -1,0 +1,634 @@
+body {
+    margin: 0%;
+    background: #2f060d;
+    color: #fff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: 0% auto;
+}
+
+
+header {
+    background: #520c17;
+    border-bottom: 4px solid #e9a22b;
+    position: relative;
+}
+
+.cabezote {
+    position: relative;
+    min-height: 56px;
+}
+
+.menuprincipal {
+    text-align: center;
+}
+
+.menuprincipal ul {
+    margin: 0%;
+    padding: 0px;
+    list-style: none;
+}
+
+.menuprincipal ul li {
+    display: inline-block;
+    padding: 20px 8px;
+}
+
+.menuprincipal ul li a {
+    color: #e9a22b;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menuprincipal ul li a:hover {
+    color: #fff;
+}
+
+.boton-menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+    height: 56px;
+    background:
+        linear-gradient(#e9a22b, #e9a22b) 15px 16px / 40px 3px no-repeat,
+        linear-gradient(#e9a22b, #e9a22b) 15px 26px / 40px 3px no-repeat,
+        linear-gradient(#e9a22b, #e9a22b) 15px 36px / 40px 3px no-repeat;
+    cursor: pointer;
+}
+
+
+.portada {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+
+.portada h1,
+.portada h2,
+.entradas h2,
+.sede h2 {
+    margin: 0px;
+    font-family: "Bebas Neue", Impact, sans-serif;
+    font-weight: normal;
+    color: #e9a22b;
+    line-height: 1.05;
+}
+
+.portada h1 {
+    font-size: 78px;
+}
+
+.titulopagina {
+    font-size: 78px;
+}
+
+.eslogan {
+    margin: 4px 0px 8px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fechadestacada {
+    display: inline;
+    margin: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lugarfecha {
+    display: inline;
+    margin: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.botones {
+    margin-top: 28px;
+}
+
+.boton {
+    display: inline-block;
+    background: #e9a22b;
+    color: #520c17;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 16px;
+    margin: 0px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+.boton:hover {
+    background: #fff;
+}
+
+
+.experiencias {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.experiencias .contenedor,
+.entradas .contenedor,
+.programacion .contenedor {
+    font-size: 0px;
+}
+
+.tarjeta {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 19px 20px 19px;
+    padding: 14px 0px 14px 0px;
+    background: #520c17;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tarjeta h3 {
+    margin: 0px 0px 12px 0px;
+    font-size: 20px;
+    font-style: italic;
+    color: #e9a22b;
+    text-transform: uppercase;
+}
+
+.tarjeta img {
+    width: 236px;
+    height: 166px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.entradas {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.entradas h2 {
+    font-size: 66px;
+    margin-bottom: 36px;
+}
+
+.pase {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 35px 20px 35px;
+    padding: 24px 0px 20px 0px;
+    background: #e9a22b;
+    color: #520c17;
+    border-radius: 8px;
+}
+
+.pase h3 {
+    margin: 0px 0px 14px 0px;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.pase p {
+    margin: 0px 0px 14px 0px;
+    font-size: 20px;
+}
+
+.pase a {
+    display: block;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: italic;
+    color: #520c17;
+}
+
+.sede {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.cuadrosede {
+    width: 1020px;
+    margin: 0% auto;
+    padding: 20px 0px 24px 0px;
+    background: #520c17;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.sede h2 {
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+.cuadrosede img {
+    width: 480px;
+    height: auto;
+    max-width: 90%;
+}
+
+.cuadrosede a {
+    display: block;
+    margin-top: 14px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: #e9a22b;
+}
+
+
+.programacion {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.orquesta {
+    width: 375px;
+    height: 325px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 24px 40px 24px;
+    padding: 20px 22px 0px 22px;
+    box-sizing: border-box;
+    background: #520c17;
+    border-radius: 8px;
+}
+
+.orquesta h3 {
+    margin: 0px 0px 14px 0px;
+    font-size: 21px;
+    font-style: italic;
+    color: #e9a22b;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    margin: 0px 0px 14px 0px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.45;
+    text-align: left;
+}
+
+.orquesta h4 {
+    margin: 0px 0px 14px 0px;
+    font-size: 18px;
+    font-style: italic;
+    color: #e9a22b;
+    text-transform: uppercase;
+}
+
+.horario {
+    margin: 0px;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.detallepases {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pasedetalle {
+    width: 1130px;
+    margin: 0px auto 36px auto;
+    padding: 24px 0px 24px 0px;
+    background: #e9a22b;
+    color: #520c17;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 0px;
+}
+
+.pasetitulo {
+    width: 270px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.pasetitulo h3 {
+    margin: 0px 0px 10px 0px;
+    font-size: 28px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.pasetitulo p {
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+}
+
+.paseinfo {
+    width: 840px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 1.55;
+    text-transform: uppercase;
+}
+
+.paseinfo h4 {
+    display: inline;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.paseinfo p {
+    display: inline;
+    margin: 0px;
+}
+
+.paseinfo h4.beneficios {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.paseinfo ul {
+    margin: 8px 0px 0px 0px;
+    padding-left: 24px;
+}
+
+@media (max-width: 1024px) {
+
+    .contenedor {
+        width: 94%;
+    }
+
+    .menuprincipal {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        right: 0px;
+        background: #520c17;
+        border-bottom: 4px solid #e9a22b;
+        z-index: 10;
+    }
+
+    .boton-menu:hover ~ .menuprincipal,
+    .menuprincipal:hover {
+        display: block;
+    }
+
+    .menuprincipal ul li {
+        display: block;
+        padding: 12px 8px;
+        border-bottom: 1px dotted #e9a22b;
+    }
+
+    .boton-menu {
+        display: block;
+    }
+
+    .cabezote {
+        min-height: 56px;
+    }
+
+    .portada {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .portada h1,
+    .titulopagina {
+        font-size: 56px;
+    }
+
+    .eslogan,
+    .fechadestacada,
+    .lugarfecha {
+        font-size: 16px;
+    }
+
+    .botones {
+        margin-top: 18px;
+    }
+
+    .boton {
+        font-size: 20px;
+        margin: 0px 14px 10px 14px;
+    }
+
+    .tarjeta {
+        width: 44%;
+        margin: 0px 2% 16px 2%;
+    }
+
+    .tarjeta img {
+        width: 70%;
+        height: auto;
+    }
+
+    .entradas {
+        padding-top: 20px;
+    }
+
+    .entradas h2 {
+        font-size: 44px;
+        margin-bottom: 20px;
+    }
+
+    .pase {
+        width: 29%;
+        margin: 0px 1.5% 16px 1.5%;
+        padding: 16px 0px 14px 0px;
+    }
+
+    .pase h3 {
+        font-size: 22px;
+    }
+
+    .pase p {
+        font-size: 15px;
+    }
+
+    .pase a {
+        font-size: 12px;
+        margin-top: 24px;
+    }
+
+    .cuadrosede {
+        width: 80%;
+        border-radius: 36px;
+    }
+
+    .sede h2 {
+        font-size: 38px;
+    }
+
+    .cuadrosede img {
+        width: 60%;
+    }
+
+    .orquesta {
+        width: 46%;
+        height: 285px;
+        margin: 0px 2% 24px 2%;
+        padding: 16px 12px 0px 12px;
+    }
+
+    .orquesta h3 {
+        font-size: 18px;
+    }
+
+    .descripcion,
+    .horario {
+        font-size: 14px;
+    }
+
+    .orquesta h4 {
+        font-size: 15px;
+    }
+
+    .pasedetalle {
+        width: 98%;
+        margin-bottom: 14px;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .pasetitulo {
+        width: 22%;
+    }
+
+    .pasetitulo h3 {
+        font-size: 22px;
+    }
+
+    .pasetitulo p {
+        font-size: 14px;
+    }
+
+    .paseinfo {
+        width: 74%;
+        font-size: 14px;
+    }
+
+    .paseinfo h4 {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .portada h1,
+    .titulopagina {
+        font-size: 40px;
+    }
+
+    .eslogan {
+        font-size: 13px;
+    }
+
+    .fechadestacada,
+    .lugarfecha {
+        font-size: 13px;
+    }
+
+    .boton {
+        display: block;
+        width: 60%;
+        margin: 0px auto 12px auto;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    .tarjeta {
+        width: 44%;
+        margin: 0px 2% 14px 2%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .tarjeta h3 {
+        font-size: 12px;
+    }
+
+    .tarjeta img {
+        width: 82%;
+    }
+
+    .entradas h2 {
+        font-size: 32px;
+    }
+
+    .pase {
+        width: 70%;
+        display: block;
+        margin: 0px auto 20px auto;
+    }
+
+    .pase h3 {
+        font-size: 24px;
+    }
+
+    .pase p {
+        font-size: 17px;
+    }
+
+    .pase a {
+        font-size: 14px;
+    }
+
+    .cuadrosede {
+        width: 92%;
+        border-radius: 28px;
+    }
+
+    .sede h2 {
+        font-size: 30px;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .cuadrosede img {
+        width: 88%;
+    }
+
+    .orquesta {
+        width: 86%;
+        height: auto;
+        display: block;
+        margin: 0px auto 22px auto;
+        padding-bottom: 24px;
+    }
+
+    .descripcion,
+    .horario {
+        font-size: 14px;
+    }
+
+    .pasedetalle {
+        width: 92%;
+        padding: 16px 0px 16px 0px;
+    }
+
+    .pasetitulo {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .paseinfo {
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        font-size: 13px;
+    }
+
+    .paseinfo h4 {
+        font-size: 13px;
+    }
+}
